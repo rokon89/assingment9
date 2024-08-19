@@ -1,0 +1,101 @@
+{
+    "hospital_name": "City General Hospital",
+    "address": {
+      "street": "123 Health St.",
+      "city": "MediTown",
+      "zip_code": "90210"
+    },
+    "phone_number": "+1-800-555-HEAL",
+    "email": "info@citygeneralhospital.com",
+    "services": [
+      {
+        "id": 1,
+        "service_name": "Emergency Care",
+        "description": "24/7 emergency services for critical injuries and conditions.",
+        "contact_number": "+1-800-555-ER24",
+        "department_head": "Dr. John Smith",
+        "availability": "24/7"
+      },
+      {
+        "id": 2,
+        "service_name": "Cardiology",
+        "description": "Comprehensive heart care including surgery and rehabilitation.",
+        "contact_number": "+1-800-555-CARDIO",
+        "department_head": "Dr. Sarah Johnson",
+        "availability": "Mon-Fri, 8 AM - 6 PM"
+      },
+      {
+        "id": 3,
+        "service_name": "Pediatrics",
+        "description": "Specialized care for infants, children, and adolescents.",
+        "contact_number": "+1-800-555-KIDS",
+        "department_head": "Dr. Emily Brown",
+        "availability": "Mon-Sat, 9 AM - 5 PM"
+      },
+      {
+        "id": 4,
+        "service_name": "Orthopedics",
+        "description": "Advanced orthopedic treatments including joint replacement and sports medicine.",
+        "contact_number": "+1-800-555-ORTHO",
+        "department_head": "Dr. Michael Lee",
+        "availability": "Mon-Fri, 7 AM - 4 PM"
+      },
+      {
+        "id": 5,
+        "service_name": "Maternity Services",
+        "description": "Comprehensive maternity care including prenatal and postnatal services.",
+        "contact_number": "+1-800-555-BABY",
+        "department_head": "Dr. Laura Wilson",
+        "availability": "24/7"
+      },
+      {
+        "id": 6,
+        "service_name": "Oncology",
+        "description": "State-of-the-art cancer treatment, including chemotherapy, radiation, and surgery.",
+        "contact_number": "+1-800-555-CANCER",
+        "department_head": "Dr. Richard Green",
+        "availability": "Mon-Fri, 8 AM - 5 PM"
+      },
+      {
+        "id": 7,
+        "service_name": "Neurology",
+        "description": "Expert care for neurological disorders including stroke, epilepsy, and MS.",
+        "contact_number": "+1-800-555-NEURO",
+        "department_head": "Dr. Alice Baker",
+        "availability": "Mon-Fri, 9 AM - 5 PM"
+      },
+      {
+        "id": 8,
+        "service_name": "Radiology",
+        "description": "Diagnostic imaging services including X-ray, MRI, and CT scans.",
+        "contact_number": "+1-800-555-RADIO",
+        "department_head": "Dr. Mark Thompson",
+        "availability": "Mon-Sat, 7 AM - 6 PM"
+      },
+      {
+        "id": 9,
+        "service_name": "Dermatology",
+        "description": "Comprehensive skin care treatments for various skin conditions.",
+        "contact_number": "+1-800-555-SKIN",
+        "department_head": "Dr. Rachel Adams",
+        "availability": "Mon-Fri, 8 AM - 4 PM"
+      }
+    ],
+    "insurance_providers_accepted": [
+      "HealthNet",
+      "BlueCross",
+      "UnitedHealth",
+      "Medicare",
+      "Medicaid"
+    ],
+    "visiting_hours": {
+      "weekdays": "9 AM - 8 PM",
+      "weekends": "10 AM - 6 PM"
+    },
+    "social_media": {
+      "facebook": "https://facebook.com/citygeneralhospital",
+      "twitter": "https://twitter.com/citygenhospital",
+      "instagram": "https://instagram.com/citygeneralhospital"
+    }
+  }
+  

@@ -1,0 +1,92 @@
+[
+  {
+    "doctor_id": "D1001",
+    "name": "Dr. Emily Carter",
+    "specialty": "Cardiologist",
+    "experience_years": 15,
+    "contact": {
+      "email": "emily.carter@hospital.com",
+      "phone": "+1-555-1234",
+      "address": "123 Heartway Blvd, New York, NY"
+    },
+    "working_hours": "9 AM - 5 PM",
+    "rating": 4.7,
+    "img_url": "https://plus.unsplash.com/premium_photo-1658506671316-0b293df7c72b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8ZG9jdG9yfGVufDB8fDB8fHww",
+    "description": "Dr. Emily Carter is a highly experienced cardiologist specializing in heart disease prevention and treatment. She is known for her patient-centered approach and dedication to improving heart health."
+  },
+  {
+    "doctor_id": "D1002",
+    "name": "Dr. Michael Evans",
+    "specialty": "Orthopedic Surgeon",
+    "experience_years": 10,
+    "contact": {
+      "email": "michael.evans@hospital.com",
+      "phone": "+1-555-5678",
+      "address": "456 Bone St, Los Angeles, CA"
+    },
+    "working_hours": "10 AM - 6 PM",
+    "rating": 4.5,
+    "img_url": "https://img.freepik.com/free-photo/cheerful-doctor-making-notes-looking-away_23-2147896151.jpg?size=626&ext=jpg&ga=GA1.1.878007376.1696252730&semt=ais_hybrid",
+    "description": "Dr. Michael Evans is an orthopedic surgeon with expertise in treating bone and joint conditions. He is dedicated to helping patients regain mobility and live pain-free lives."
+  },
+  {
+    "doctor_id": "D1003",
+    "name": "Dr. Sophia Lee",
+    "specialty": "Dermatologist",
+    "experience_years": 8,
+    "contact": {
+      "email": "sophia.lee@clinic.com",
+      "phone": "+1-555-9101",
+      "address": "789 Skin Ave, Chicago, IL"
+    },
+    "working_hours": "8 AM - 4 PM",
+    "rating": 4.6,
+    "img_url": "https://media.istockphoto.com/id/1494324933/photo/portrait-of-asian-chinese-mixed-race-senior-mature-man-doctor-in-collared-business-shirt.webp?b=1&s=612x612&w=0&k=20&c=CY6F5ldzz3xcC5KEbgx_r1ltOUMLaqzCsNnwtesf_28=",
+    "description": "Dr. Sophia Lee is a dermatologist specializing in skin health and cosmetic treatments. She offers a wide range of services to help patients achieve healthy and radiant skin."
+  },
+  {
+    "doctor_id": "D1004",
+    "name": "Dr. John Mitchell",
+    "specialty": "Pediatrician",
+    "experience_years": 12,
+    "contact": {
+      "email": "john.mitchell@hospital.com",
+      "phone": "+1-555-1122",
+      "address": "321 Childcare Rd, Boston, MA"
+    },
+    "working_hours": "7 AM - 3 PM",
+    "rating": 4.8,
+    "img_url": "https://media.istockphoto.com/id/2153805399/photo/portrait-of-happy-female-doctor-standing-outside-at-front-of-modern-hospital.webp?b=1&s=612x612&w=0&k=20&c=_BGB24Xp7uIA6B8WrCy_VvzXAyI7N3tziVF3HYoslxU=",
+    "description": "Dr. John Mitchell is a caring pediatrician with over a decade of experience. He is committed to providing comprehensive healthcare to children, ensuring their growth and well-being."
+  },
+  {
+    "doctor_id": "D1005",
+    "name": "Dr. Olivia Brown",
+    "specialty": "Neurologist",
+    "experience_years": 18,
+    "contact": {
+      "email": "olivia.brown@hospital.com",
+      "phone": "+1-555-1314",
+      "address": "654 Brainwave Blvd, Houston, TX"
+    },
+    "working_hours": "11 AM - 7 PM",
+    "rating": 4.9,
+    "img_url": "https://img.freepik.com/premium-photo/male-female-doctor-portrait-healthcare-medical-staff-concept-confident-doctor-portrait_71956-34395.jpg?size=626&ext=jpg&ga=GA1.1.878007376.1696252730&semt=ais_hybrid",
+    "description": "Dr. Olivia Brown is a neurologist with extensive experience in diagnosing and treating disorders of the nervous system. She is highly respected for her expertise in neurological care."
+  },
+  {
+    "doctor_id": "D1006",
+    "name": "Dr. James Anderson",
+    "specialty": "Gastroenterologist",
+    "experience_years": 14,
+    "contact": {
+      "email": "james.anderson@clinic.com",
+      "phone": "+1-555-1516",
+      "address": "987 Digestive Ln, San Francisco, CA"
+    },
+    "working_hours": "9 AM - 5 PM",
+    "rating": 4.7,
+    "img_url": "https://img.freepik.com/premium-photo/smiling-doctor-with-stethoscope-around-his-neck_182633-515.jpg?size=626&ext=jpg&ga=GA1.1.878007376.1696252730&semt=ais_hybrid",
+    "description": "Dr. James Anderson is a renowned gastroenterologist with expertise in digestive system disorders. He is known for his compassionate care and advanced diagnostic skills."
+  }
+]

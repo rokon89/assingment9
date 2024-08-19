@@ -1,2 +1,3 @@
 tailwind css
-dais uy
+
+daisy ui

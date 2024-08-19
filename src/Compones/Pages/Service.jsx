@@ -21,7 +21,7 @@ const Service = () => {
                 </div>
 
             </div>
-            <div>
+            <div className='grid md:grid-cols-3 gap-5'>
                 {
                     data.services?.map(service => <Services key={service} service={service}></Services>)
                 }

@@ -6,29 +6,40 @@ import DateilsDoctor from "../Pages/doctor/DateilsDoctor";
 import Contact from "../Pages/Contact";
 import Error from "../Pages/Error";
 import Service from "../Pages/service";
+import Login from "../Authenteion/Login";
+import Register from "../Authenteion/Register";
+import Private from "../Pages/Private";
 
 export const router = createBrowserRouter([{
     path: "/",
     element: <Root></Root>,
-    errorElement:<Error></Error>,
+    errorElement: <Error></Error>,
     children: [
         {
             path: "/",
             element: <Home></Home>
         },
         {
+            path: "/login",
+            element: <Login></Login>
+        },
+        {
+            path: "/register",
+            element: <Register></Register>
+        },
+        {
             path: "/contact",
-            element: <Contact></Contact>
+            element: <Private> <Contact></Contact> </Private>
         },
         {
             path: "/services",
             loader: () => fetch("public/service.json"),
-            element: <Service></Service>
+            element: <Private> <Service></Service> </Private>
         },
         {
             path: "/doctor",
             loader: () => fetch("public/doctor.json"),
-            element: <Doctor></Doctor>,
+            element: <Private> <Doctor></Doctor>  </Private>,
         },
         {
             path: "/details/:doctor_id",

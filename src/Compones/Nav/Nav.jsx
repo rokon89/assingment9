@@ -3,10 +3,9 @@ import { NavLink } from 'react-router-dom';
 
 const Nav = () => {
     const routers = [
-        { id: "4", name: "Doctor", path: "/doctor" },
-        { id: "4", name: "Contact", path: "/contact" },
+        { id: "1", name: "Doctor", path: "/doctor" },
+        { id: "2", name: "Contact", path: "/contact" },
         { id: "3", name: "Services", path: "/services" },
-        { id: "2", name: "About Us", path: "/about" },
     ];
 
     return (

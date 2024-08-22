@@ -26,14 +26,14 @@ const Manenav = () => {
                                 <div className="w-10 rounded-full">
                                     <img
                                         alt="Tailwind CSS Navbar component"
-                                        src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp" />
+                                        src={User.photoURL}/>
                                 </div>
                             </div>
                             <ul
                                 tabIndex={0}
                                 className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
-                                <li className=' font-semibold text-xl '><a>Profile</a></li>
-                                <li className=' font-semibold text-xl '><button onClick={logout}>Logout</button></li>
+                                <li className=' font-semibold text-xl '><a>{User.displayName}</a></li>
+                                <li className=' font-semibold text-xl '><button onClick={logout}>logout</button></li>
                             </ul>
                         </div> :
                         <Link to="login">

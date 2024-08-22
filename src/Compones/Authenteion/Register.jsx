@@ -1,6 +1,6 @@
 import { useContext, useState } from "react";
 import { useForm } from "react-hook-form"
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { Createcontext } from "../Fierbase/AuthContext";
 import toast, { Toaster } from 'react-hot-toast';
 import { IoMdEyeOff } from "react-icons/io";
@@ -10,10 +10,12 @@ const Register = () => {
     const [errortext, seterrortext] = useState("")
     const [passwordshow, setpasswordshow] = useState(true)
 
-    const { create } = useContext(Createcontext)
+const nevigat = useNavigate()
+
+    const { create, update } = useContext(Createcontext)
     const { register, handleSubmit, reset, formState: { errors }, } = useForm();
     const onSubmit = (data) => {
-        const { email, password, name, photo_url } = data;
+        const { email, password, Name, photo } = data;
         console.log(data)
 
         if (password.length < 6) {
@@ -31,6 +33,12 @@ const Register = () => {
         create(email, password)
             .then(res => {
                 console.log(res.user)
+                update(Name, photo)
+                    .then(res => {
+                        console.log(res?.User)
+                        nevigat("/")
+                    })
+                toast.success("successfully!")
             })
             .catch(error => {
                 seterrortext(error)
@@ -51,14 +59,14 @@ const Register = () => {
                                 <div className="space-y-4">
                                     <div>
                                         <span className="font-semibold ">Enter your Name</span>
-                                        <input className=" w-full py-2 pl-2 rounded-md bg-slate-100" type="text" name="name" placeholder="Enter your Name" id="6"
-                                            {...register("name")}
+                                        <input className=" w-full py-2 pl-2 rounded-md bg-slate-100" type="text" name="Name" placeholder="Enter your Name" id="6"
+                                            {...register("Name")}
                                         />
                                     </div>
                                     <div>
                                         <span className="font-semibold ">Enter your Photo url</span>
-                                        <input className=" w-full py-2 pl-2 rounded-md bg-slate-100" type="text" name="photo_url" placeholder=" Enter yourPhoto url" id="5"
-                                            {...register("photo_url")}
+                                        <input className=" w-full py-2 pl-2 rounded-md bg-slate-100" type="text" name="photo" placeholder=" Enter yourPhoto url" id="5"
+                                            {...register("photo")}
                                         />
                                     </div>
                                     <div>
@@ -69,13 +77,13 @@ const Register = () => {
                                     </div>
 
 
-                                    <div className="relative"> 
+                                    <div className="relative">
                                         <span className="font-semibold ">Enter your Password</span>
                                         <input className=" w-full py-2 pl-2 rounded-md bg-slate-100"
                                             {...register("password")}
-                                            type={passwordshow?"password":"text"}
+                                            type={passwordshow ? "password" : "text"}
                                             name="password" placeholder="Enter your Password" id="2" />
-                                        <span onClick={() => setpasswordshow(!passwordshow)} className="absolute bottom-3 right-3 text-lg ">{passwordshow?<IoMdEyeOff />:<FaEye />}</span>
+                                        <span onClick={() => setpasswordshow(!passwordshow)} className="absolute bottom-3 right-3 text-lg ">{passwordshow ? <IoMdEyeOff /> : <FaEye />}</span>
                                     </div>
 
 

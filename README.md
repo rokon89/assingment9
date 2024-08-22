@@ -16,4 +16,4 @@ npm react-hot-toas.
 
 npm semantic-ui-react.
 
-live link : 
+live link : https://b9a9-b3ef8.web.app

@@ -33,17 +33,17 @@ export const router = createBrowserRouter([{
         },
         {
             path: "/services",
-            loader: () => fetch("public/service.json"),
+            loader: () => fetch("/service.json"),
             element: <Private> <Service></Service> </Private>
         },
         {
             path: "/doctor",
-            loader: () => fetch("public/doctor.json"),
+            loader: () => fetch("/doctor.json"),
             element: <Private> <Doctor></Doctor>  </Private>,
         },
         {
             path: "/details/:doctor_id",
-            loader: () => fetch("public/doctor.json"),
+            loader: () => fetch("/doctor.json"),
             element: <DateilsDoctor></DateilsDoctor>
         }
 

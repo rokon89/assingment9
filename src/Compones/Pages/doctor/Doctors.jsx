@@ -6,6 +6,7 @@ const Doctors = ({ doctors, }) => {
 
      return (
         <div>
+            
             <div className="card card-compact bg-base-100 shadow-xl font-serif">
                 <figure>
                     <img className="h-72"
